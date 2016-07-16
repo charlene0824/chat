@@ -1,7 +1,7 @@
 # chat
 使用socket.io实现简易聊天室
 这里总结一下socket.io中emit的几种方式<br/>
-<b>socket.emit('message',data)<b>信息传输对象为当前socket对应的client,各个client socket相互不影响<br/>
+<b>socket.emit('message',data)</b>信息传输对象为当前socket对应的client,各个client socket相互不影响<br/>
 <b>socket.broadcast.emit</b>信息传输对象为所有client，排除当前socket对应的client<br/>
 <b>io.socket.emit</b>信息传输的对象为所有的client
 
