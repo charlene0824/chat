@@ -32,3 +32,4 @@ socket.io可以使用分组方法，socket.join(),以及与之对应的socket.le
     io.sockets.in('chrome').emit('event_name', data)
     //emit to all socket client in the room
 
+
